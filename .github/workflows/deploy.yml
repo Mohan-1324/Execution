@@ -32,7 +32,7 @@ jobs:
     runs-on: self-hosted
     steps:
      - name: SSH deploy
-       uses: appleboy/ssh-action@master
+       uses: Mohan-1324/Execution@master
        with:
           host: ${{ secrets.HOST }}
           username:  ${{ secrets.USER }}
